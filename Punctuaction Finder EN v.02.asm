@@ -40,8 +40,8 @@ mov BX, offset NameBuffer+2
 
 start:
     mov DL, [BX]
-    ;loop download characters in AH
-    PUSH BX ; save BX to read punctuation character...
+    ;Loop download characters in AH
+    PUSH BX ; Save BX to read punctuation character...
     mov BX, offset char2Check
 
 StartCharacter:    
